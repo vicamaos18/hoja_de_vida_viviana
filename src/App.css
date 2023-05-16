@@ -1,3 +1,6 @@
+.TitleSection{
+  text-align: center;
+}
 
 
 .SectionLeft {
@@ -22,7 +25,7 @@
   background-color:darkslategrey;
 }
 
-.ProfilerSection{
+.App{
   font-size: 20px;
   font-weight: bold;
   padding-left: 10px;
@@ -32,13 +35,11 @@
 }
 
 .Name{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
 }
 
-p{
-  font-family:tahoma;
-}
+
 
 .ImgProfile{
   width: 280px;
@@ -52,16 +53,15 @@ p{
   margin:0 auto;
 }
 
-.titleContacto{
+.ContactSection{
   color:white;
   padding-left: 30px;
+  padding-top: 30px;
 }
 hr{
   padding-left: 30px;
-}
-
-.CardText{
-  color:white;
-  font-family:tahoma;
-  padding-left: 30px;
+  width: 90%;
+  height: 3px;
+  background-color: rgb(230, 221, 221);
+  border:none
 }
