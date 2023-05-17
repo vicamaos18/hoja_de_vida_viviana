@@ -1,7 +1,27 @@
 .TitleSection{
   text-align: center;
+  
 }
 
+.Title{
+  font-size: 30px;
+}
+
+.ProfileSection{
+  padding-top: 20px;
+}
+
+.TextProfile{
+  text-align: justify;
+  margin-right: 30px;
+}
+
+.DivSectionLeft{
+  padding-top: 15px;
+}
+li{
+  text-align: justify;
+}
 
 .SectionLeft {
   padding-left: 10px;
@@ -9,7 +29,7 @@
   margin-left: 57px;
   float: left;
   position: relative;
-  width: 45%;
+  width: 40%;
   height: auto;
  
 }
@@ -19,7 +39,7 @@
   padding-left: 10px;
   position: relative;
   float: left;
-  width: 45%;
+  width: 40%;
   border: steelblue solid 1px;
   height: auto;
   background-color:darkslategrey;
@@ -27,11 +47,9 @@
 
 .App{
   font-size: 20px;
-  font-weight: bold;
-  padding-left: 10px;
-  padding-top: 10px;   
-  padding-bottom: 10px;
-  width: 97%;
+  padding-top: 20px;   
+  width: 80%;
+  margin:0 auto;
 }
 
 .Name{
@@ -39,13 +57,14 @@
   font-weight: 800;
 }
 
-
-
 .ImgProfile{
   width: 280px;
   height: 340px;
-  border-radius: 20px;
+  border-radius: 15px;
+}
 
+.ImageSection{
+  padding-top: 50px;
 }
 
 .SectionCard{
@@ -53,10 +72,11 @@
   margin:0 auto;
 }
 
-.ContactSection{
+.DivSectionRigth{
   color:white;
   padding-left: 30px;
   padding-top: 30px;
+
 }
 hr{
   padding-left: 30px;
