@@ -29,7 +29,7 @@ li{
   margin-left: 57px;
   float: left;
   position: relative;
-  width: 40%;
+  width: 45%;
   height: auto;
  
 }
@@ -39,7 +39,7 @@ li{
   padding-left: 10px;
   position: relative;
   float: left;
-  width: 40%;
+  width: 45%;
   border: steelblue solid 1px;
   height: auto;
   background-color:darkslategrey;
@@ -48,7 +48,7 @@ li{
 .App{
   font-size: 20px;
   padding-top: 20px;   
-  width: 80%;
+  width: 90%;
   margin:0 auto;
 }
 
@@ -78,6 +78,14 @@ li{
   padding-top: 30px;
 
 }
+
+.FormSection{
+  color:white;
+  padding-top: 30px;
+  padding-bottom: 130px;
+  margin: 20px;
+}
+
 hr{
   padding-left: 30px;
   width: 90%;

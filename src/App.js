@@ -3,6 +3,8 @@ import './App.css';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 function TitleSection() {
   return (
@@ -158,29 +160,31 @@ function SkillsSection() {
 
 function FormSection() {
   return (
-    <div className="DivSectionRigth">
+    <div className="FormSection">
       <h4>FORMULARIO DE CONTACTO</h4>
       <hr></hr>
-      <div className='row'>
-        <div className="input-group">
-          <span className="input-group-addon" id="basic-addon1">@</span>
-          <input type="text" className="form-control" placeholder="Username" aria-describedby="basic-addon1"/>
+      <form>
+        <div class="sm-1">
+          <label class="form-label" for="form4Example1">Nombre</label>
+          <input type="text" id="form4Example1" class="form-control" />
         </div>
-        <div className="input-group">
-          <input type="text" className="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2"/>
-          <span class="input-group-addon" id="basic-addon2">@example.com</span>
+        <div class="sm-1">
+          <label class="form-label" for="form4Example2">Correo Electrónico</label>
+          <input type="email" id="form4Example2" class="form-control" />
         </div>
-        <div className="input-group">
-          <span className="input-group-addon">$</span>
-          <input type="text" className="form-control" aria-label="Amount (to the nearest dollar)"/>
-          <span className="input-group-addon">.00</span>
+        <div class="sm-1">
+          <label class="form-label" for="form4Example3">Mensaje</label>
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
         </div>
-        <label for="basic-url">Your vanity URL</label>
-        <div className="input-group">
-          <span className="input-group-addon" id="basic-addon3">https://example.com/users/</span>
-          <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3"/>
-        </div>
+        <div class="form-check d-flex justify-content-center mb-4">
+        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+        <label class="form-check-label" for="form4Example4">
+          Enviarme una copia de este mensaje
+        </label>
       </div>
+      <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+      </form>
+
     </div>
     );   
 }
