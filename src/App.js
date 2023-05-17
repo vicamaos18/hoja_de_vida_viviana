@@ -161,18 +161,26 @@ function FormSection() {
     <div className="DivSectionRigth">
       <h4>FORMULARIO DE CONTACTO</h4>
       <hr></hr>
-      <ul>
-        <li type="square">HTML</li> 
-        <li type="square">CSS</li>
-        <li type="square">Bootstrap</li>
-        <li type="square">Reactjs</li>
-        <li type="square">Angular</li>
-        <li type="square">Visual Basic - WPF y Servicios RIA</li>
-        <li type="square">C# Framework .NET</li>
-        <li type="square">Repositorio GIT (GitHub - GitLab)</li>
-        <li type="square">API web con ASP.NET Core</li>
-        <li type="square">Lenguaje SQL</li>
-      </ul>
+      <div className='row'>
+        <div className="input-group">
+          <span className="input-group-addon" id="basic-addon1">@</span>
+          <input type="text" className="form-control" placeholder="Username" aria-describedby="basic-addon1"/>
+        </div>
+        <div className="input-group">
+          <input type="text" className="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2"/>
+          <span class="input-group-addon" id="basic-addon2">@example.com</span>
+        </div>
+        <div className="input-group">
+          <span className="input-group-addon">$</span>
+          <input type="text" className="form-control" aria-label="Amount (to the nearest dollar)"/>
+          <span className="input-group-addon">.00</span>
+        </div>
+        <label for="basic-url">Your vanity URL</label>
+        <div className="input-group">
+          <span className="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+          <input type="text" className="form-control" id="basic-url" aria-describedby="basic-addon3"/>
+        </div>
+      </div>
     </div>
     );   
 }
