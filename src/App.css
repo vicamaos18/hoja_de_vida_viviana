@@ -18,6 +18,7 @@
 
 .DivSectionLeft{
   padding-top: 15px;
+  
 }
 li{
   text-align: justify;
@@ -75,15 +76,14 @@ li{
 .DivSectionRigth{
   color:white;
   padding-left: 30px;
-  padding-top: 30px;
+  padding-top: 20px;
 
 }
 
 .FormSection{
   color:white;
-  padding-top: 30px;
-  padding-bottom: 130px;
-  margin: 20px;
+  padding-top: 20px;
+  margin: 15px;
 }
 
 hr{

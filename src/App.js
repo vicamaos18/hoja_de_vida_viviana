@@ -3,8 +3,6 @@ import './App.css';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 
 function TitleSection() {
   return (
@@ -18,7 +16,14 @@ function ProfileSection() {
   return (
     <div className="ProfileSection">
       <h3>Perfil Profesional</h3>
-      <p className='TextProfile'>Viviana Martinez ha realizado diferentes estudios que abarcan desde el ámbito técnico en
+      <p className='TextProfile'>
+          Viviana Martinez se desempeña hoy en día principalmente como 
+          ingeniero Analista, diseñador, evaluador y desarrollador de sistemas de información 
+          apoyados en las Tecnologías de la Información y la Comunicación. Es un profesional 
+          que sabe adaptar sus conocimientos y habilidades para proponer ideas innovadoras y 
+          soluciones acordes con las necesidades inmediatas y latentes de las empresas en 
+          donde ha laborado.
+          Ha realizado diferentes estudios que abarcan desde el ámbito técnico en
           la reparación de equipos de cómputo, pasando por la tecnología en Análisis y
           Desarrollo de Sistemas de Información, hasta llegar a la Ingeniería de Sistemas y
           Telecomunicaciones, incluyendo un diplomado en desarrollo de software y aspira a
@@ -52,7 +57,7 @@ function EducationSection() {
           Diciembre del 2009
         </li><br/>
         <li><b>Comercial Secretariado Auxiliar Contable</b><br/>
-          Instituto Técnico Marco Fidel Suarez antes CASD Mercedes Abrego de Manizales<br/>
+          Instituto Técnico Marco Fidel Suarez<br/>
           Durante los años lectivos 2008 y 2009
         </li><br/>
       </ul>
@@ -182,7 +187,7 @@ function FormSection() {
           Enviarme una copia de este mensaje
         </label>
       </div>
-      <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+      <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
       </form>
 
     </div>
