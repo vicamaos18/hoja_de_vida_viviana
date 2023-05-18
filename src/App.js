@@ -9,7 +9,7 @@ function TitleSection() {
     <div className="TitleSection">
       <p className='TitleSection__Title--StyleText'><spam className="Name">VIVIANA CAROLINA MARTINEZ OSORIO</spam> <br/>Ingeniera de Sistemas y Telecomunicaciones</p>
     </div>
-      );  
+    );  
 }
 
 function ProfileSection() {
@@ -27,8 +27,8 @@ function ProfileSection() {
           la reparación de equipos de cómputo, pasando por la tecnología en Análisis y
           Desarrollo de Sistemas de Información, hasta llegar a la Ingeniería de Sistemas y
           Telecomunicaciones, incluyendo un diplomado en desarrollo de software y aspira a
-          seguir su capacitación constante en campos afines.</p>
-      
+          seguir su capacitación constante en campos afines.
+      </p>
     </div>
     );   
 }
@@ -60,8 +60,7 @@ function EducationSection() {
           Instituto Técnico Marco Fidel Suarez<br/>
           Durante los años lectivos 2008 y 2009
         </li><br/>
-      </ul>
-      
+      </ul> 
     </div>
     );   
 }
@@ -96,7 +95,6 @@ function ExperienceSection() {
             25 de marzo de 2014 hasta el 24 de septiembre del 2014
         </li>
       </ul>
-      
     </div>
     );   
 }
@@ -108,7 +106,6 @@ function ImageSection() {
         <Card.Img className='ImgProfile' variant="top" src={logo} />
       </Card>
     </div>
-    
     );   
 }
 
@@ -192,7 +189,6 @@ function FormSection() {
     </div>
     );   
 }
-
 
 function App() {
   return (
