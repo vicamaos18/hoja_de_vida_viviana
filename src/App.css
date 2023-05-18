@@ -3,7 +3,7 @@
   
 }
 
-.Title{
+.TitleSection__Title--StyleText{
   font-size: 30px;
 }
 
@@ -11,7 +11,7 @@
   padding-top: 20px;
 }
 
-.TextProfile{
+.ProfileSection__TextProfile--TextStyle{
   text-align: justify;
   margin-right: 30px;
 }
@@ -24,7 +24,7 @@ li{
   text-align: justify;
 }
 
-.SectionLeft {
+.App__SectionLeft--Separation {
   padding-left: 10px;
   padding-top: 10px;
   margin-left: 57px;
@@ -35,7 +35,7 @@ li{
  
 }
 
-.SectionRigth {
+.App__SectionRigth--Separation {
   padding-top: 10px;
   padding-left: 10px;
   position: relative;

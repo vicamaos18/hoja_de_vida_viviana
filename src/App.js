@@ -7,7 +7,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 function TitleSection() {
   return (
     <div className="TitleSection">
-      <p className='Title'><spam className="Name">VIVIANA CAROLINA MARTINEZ OSORIO</spam> <br/>Ingeniera de Sistemas y Telecomunicaciones</p>
+      <p className='TitleSection__Title--StyleText'><spam className="Name">VIVIANA CAROLINA MARTINEZ OSORIO</spam> <br/>Ingeniera de Sistemas y Telecomunicaciones</p>
     </div>
       );  
 }
@@ -16,7 +16,7 @@ function ProfileSection() {
   return (
     <div className="ProfileSection">
       <h3>Perfil Profesional</h3>
-      <p className='TextProfile'>
+      <p className='ProfileSection__TextProfile--TextStyle'>
           Viviana Martinez se desempeña hoy en día principalmente como 
           ingeniero Analista, diseñador, evaluador y desarrollador de sistemas de información 
           apoyados en las Tecnologías de la Información y la Comunicación. Es un profesional 
@@ -169,27 +169,26 @@ function FormSection() {
       <h4>FORMULARIO DE CONTACTO</h4>
       <hr></hr>
       <form>
-        <div class="sm-1">
-          <label class="form-label" for="form4Example1">Nombre</label>
-          <input type="text" id="form4Example1" class="form-control" />
+        <div className="sm-1">
+          <label className="form-label" for="form4Example1">Nombre</label>
+          <input type="text" id="form4Example1" className="form-control" />
         </div>
-        <div class="sm-1">
-          <label class="form-label" for="form4Example2">Correo Electrónico</label>
-          <input type="email" id="form4Example2" class="form-control" />
+        <div className="sm-1">
+          <label className="form-label" for="form4Example2">Correo Electrónico</label>
+          <input type="email" id="form4Example2" className="form-control" />
         </div>
-        <div class="sm-1">
-          <label class="form-label" for="form4Example3">Mensaje</label>
-          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+        <div className="sm-1">
+          <label className="form-label" for="form4Example3">Mensaje</label>
+          <textarea className="form-control" id="form4Example3" rows="4"></textarea>
         </div>
-        <div class="form-check d-flex justify-content-center mb-4">
-        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-        <label class="form-check-label" for="form4Example4">
+        <div className="form-check d-flex justify-content-center mb-4">
+        <input className="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+        <label className="form-check-label" for="form4Example4">
           Enviarme una copia de este mensaje
         </label>
-      </div>
-      <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+        </div>
+      <button type="submit" className="btn btn-primary btn-block mb-4">Enviar</button>
       </form>
-
     </div>
     );   
 }
@@ -198,13 +197,13 @@ function FormSection() {
 function App() {
   return (
     <div className="App">
-      <div className='SectionLeft'>
+      <div className='App__SectionLeft--Separation'>
         <TitleSection></TitleSection>
         <ProfileSection></ProfileSection>
         <EducationSection></EducationSection>
         <ExperienceSection></ExperienceSection>
       </div>
-      <div className='SectionRigth'>
+      <div className='App__SectionRigth--Separation'>
         <ImageSection></ImageSection>
         <ContactSection></ContactSection>
         <InterestsSection></InterestsSection>
